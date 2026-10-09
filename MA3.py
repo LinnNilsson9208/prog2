@@ -143,7 +143,7 @@ def sphere_volume_parallel_numba(n, d, np=10):
     return (results)
     
 def main():
-    '''
+    
     # Exc1
     dots = [1000, 10000, 100000]
     for n in dots:
@@ -185,7 +185,7 @@ def main():
         result = sphere_volume(n, d)
     stop = pc()
     print(f"Exc4: Sequential time of {d} and {n}: {stop-start}")
-    '''
+    
     n = 1000000
     d = 11
     np = 10
